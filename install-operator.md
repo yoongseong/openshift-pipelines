@@ -4,7 +4,7 @@ OpenShift Pipelines is provided as an add-on on top of OpenShift that can be ins
 
 To start, make sure you are on the **Administrator** perspective as shown below:
 
-![Administrator Perspective](images/administrator.png)
+![Administrator Perspective](docs/images/administrator.png)
 
 Go to **Operators > OperatorHub** in the Web Console. You can see the list of available operators for OpenShift provided by Red Hat as well as a community of partners and open-source projects.
 
