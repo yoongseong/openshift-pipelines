@@ -7,7 +7,7 @@ spec:
   type: git
   params:
   - name: url
-    value: http://github.com/openshift-pipelines/vote-api.git
+    value: http://github.com/yoongseong/vote-api.git
 ---
 apiVersion: tekton.dev/v1alpha1
 kind: PipelineResource
@@ -17,7 +17,7 @@ spec:
   type: image
   params:
   - name: url
-    value: image-registry.openshift-image-registry.svc:5000/pipelines-tutorial/vote-api:latest
+    value: image-registry.openshift-image-registry.svc:5000/nttap-pipelines/vote-api:latest
 ---
 apiVersion: tekton.dev/v1alpha1
 kind: PipelineResource
@@ -27,7 +27,7 @@ spec:
   type: git
   params:
   - name: url
-    value: http://github.com/openshift-pipelines/vote-ui.git
+    value: http://github.com/yoongseong/vote-ui.git
 ---
 apiVersion: tekton.dev/v1alpha1
 kind: PipelineResource
@@ -37,4 +37,4 @@ spec:
   type: image
   params:
   - name: url
-    value: image-registry.openshift-image-registry.svc:5000/pipelines-tutorial/vote-ui:latest
+    value: image-registry.openshift-image-registry.svc:5000/nttap-pipelines/vote-ui:latest
